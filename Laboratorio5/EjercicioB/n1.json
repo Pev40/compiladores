@@ -1,0 +1,85 @@
+{
+    "cliente": {
+      "_id": ObjectId("65fa00993e603764638b4567"),
+      "nomb": "MARIA LUZ",
+      "tipo_enti": "P",
+      "appat": "GUTIERREZ",
+      "apmat": "ARAPA",
+      "docident": [
+        {
+          "tipo": "DNI",
+          "num": "29667061"
+        }
+      ],
+      "domicilios": [
+        {
+          "direccion": "PJE. LOS ROSALES C-19 CAMPIÑA - SOCABAYA"
+        }
+      ]
+    },
+    "fec": "2024-06-04",
+    "tipo": "R",
+    "serie": "001",
+    "num": NumberLong(6886),
+    "observ": "",
+    "items": [
+        {
+          "cuenta_cobrar": {
+            "_id": ObjectId("5d9658993e6037a9588b4567"),
+            "servicio": {
+                "_id": ObjectId("566e83018e73581c0700002f"),
+                "nomb": "EXPEDICION DUPLICADO DE CHEQUE BANCARIO",
+                "organizacion": {
+                  "_id": ObjectId("51a50edc4d4a13441100000e"),
+                  "nomb": "Unidad de Patrimonio, Muebles e Inmuebles"
+                }
+              }
+          },
+          "conceptos": [
+            {
+              "concepto": {
+                "_id": ObjectId("566e8c4f8e73582407000032"),
+                "cod": "TUPA_03",
+                "nomb": "EXPEDICION DUPLICADO DE CHEQUE BANCARIO",
+              },
+              "cuenta": {
+                "_id": ObjectId("51c20c774d4a13740b000019"),
+                "cod": "1201.0302.47.03",
+                "descr": " Otros Derechos TUPA"
+              },
+              "monto": 20
+            }
+          ]
+        }
+      ],
+    "moneda": "S",
+    "total": 20,
+    "efectivos": [
+      {
+        "moneda": "S",
+        "monto": 20
+      },
+      {
+        "moneda": "D",
+        "monto": 0
+      }
+    ],
+    "subtotal": "20.00",
+    "igv": "0.00",
+    "modulo": "IN",
+    "periodo": "240600",
+    "fecreg": ISODate("2024-06-04T05:00:00.0Z"),
+    "fecreal": ISODate("2024-06-04T18:47:49.327Z"),
+    "estado": "R",
+    "autor": {
+      "_id": ObjectId("521e36624d4a13c417000007"),
+      "tipo_enti": "P",
+      "nomb": "ANGEL",
+      "appat": "CHOQUE",
+      "apmat": "ROQUE",
+      "cargo": {
+        "_id": ObjectId("51ffefa24d4a13240d000004"),
+        "nomb": "TECNICO ADMINISTRATIVO I"
+      }
+    }
+  }

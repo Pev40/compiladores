@@ -1,0 +1,61 @@
+{
+    "servicio": {
+        "_id": ObjectId("566e83018e73581c0700002f"),
+        "nomb": "EXPEDICION DUPLICADO DE CHEQUE BANCARIO",
+        "organizacion": {
+          "_id": ObjectId("51a50edc4d4a13441100000e"),
+          "nomb": "Unidad de Patrimonio, Muebles e Inmuebles"
+        }
+      }
+,
+"fecven": ISODate("2024-06-04T05:00:00.0Z"),
+"moneda": "S",
+"conceptos": [
+{
+"concepto": {
+"_id": ObjectId("566e8c4f8e73582407000032"),
+"cod": "TUPA_03",
+"nomb": "EXPEDICION DUPLICADO DE CHEQUE BANCARIO",
+"formula": "20",
+"cuenta": {
+  "_id": ObjectId("51c20c774d4a13740b000019"),
+  "cod": "1201.0302.47.03",
+  "descr": " Otros Derechos TUPA"
+}
+},
+"monto": 20,
+"saldo": 20
+},
+{
+"concepto": {
+"_id": ObjectId("52d444dda4b5c3c0060000e6"),
+"cod": "INTERES",
+"nomb": "Interés",
+"formula": "__VALUE__",
+"cuenta": {
+        "_id": ObjectId("51c20c774d4a13740b000019"),
+        "cod": "1201.0302.47.03",
+        "descr": " Otros Derechos TUPA"
+}
+},
+"monto": 0,
+"saldo": 0
+}
+],
+"total": 20,
+"saldo": NumberLong(0),
+"fecreg": ISODate("2024-06-04T17:53:59.311Z"),
+"estado": "C",
+"modulo": "IN",
+"autor": {
+"_id": ObjectId("521e2d0a4d4a13f414000006"),
+"tipo_enti": "P",
+"nomb": "",
+"appat": "",
+"apmat": "",
+"cargo": {
+"_id": ObjectId("51ffa9294d4a13540c000001"),
+"nomb": "TECNICO ADMINISTRATIVO I"
+}
+}
+}
